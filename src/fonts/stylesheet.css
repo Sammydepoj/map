@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url("Satoshi-Black.otf");
+  src: local("Satoshi Black"), local("Satoshi-Black"),
+    url("Satoshi-Black.otf?#iefix") format("embedded-opentype"),
+    url("Satoshi-Black.otf") format("otf"),
+    url("Satoshi-Black.otf") format("otf"),
+    url("Satoshi-Black.otf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("Satoshi-Bold.otf");
+  src: local("Satoshi Bold"), local("Satoshi-Bold"),
+    url("Satoshi-Bold.otf?#iefix") format("embedded-opentype"),
+    url("Satoshi-Bold.otf") format("otf"), url("Satoshi-Bold.otf") format("otf"),
+    url("Satoshi-Bold.otf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("Satoshi-Medium.otf");
+  src: local("Satoshi Medium"), local("Satoshi-Medium"),
+    url("Satoshi-Medium.otf?#iefix") format("embedded-opentype"),
+    url("Satoshi-Medium.otf") format("otf"),
+    url("Satoshi-Medium.otf") format("otf"),
+    url("Satoshi-Medium.otf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("Satoshi-Regular.otf");
+  src: local("Satoshi Regular"), local("Satoshi-Regular"),
+    url("Satoshi-Regular.otf?#iefix") format("embedded-opentype"),
+    url("Satoshi-Regular.otf") format("otf"),
+    url("Satoshi-Regular.otf") format("otf"),
+    url("Satoshi-Regular.otf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
