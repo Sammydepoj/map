@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import NextTopLoader from "nextjs-toploader";
+import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
   title: "MAP",
@@ -25,6 +26,7 @@ export default function RootLayout({
           speed={100}
           showSpinner={false}
         />
+        <Toaster richColors pauseWhenPageIsHidden position="top-right" />
         {children}
       </body>
     </html>

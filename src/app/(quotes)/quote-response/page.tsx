@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/dialog";
 import { Loader2 } from "lucide-react";
 import { useRouter } from "next/navigation";
+import { toast } from "sonner";
 
 const QuoteResponse = () => {
   const router = useRouter();
@@ -54,6 +55,7 @@ const QuoteResponse = () => {
         setOpenDialog(false);
         setCurrentStep("requestInfo");
         router.push("/quotes");
+        toast.success("RFQ ID sent successfully!");
       }, 2000);
     } catch (error) {
       console.log(error);
